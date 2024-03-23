@@ -47,7 +47,7 @@ export default function Header() {
               ))}
             </ul>
             <Button className="my-auto" variant="faded">
-              CV
+              Fale comigo
             </Button>
           </nav>
         </div>
