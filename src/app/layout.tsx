@@ -1,3 +1,4 @@
+import Header from "@/components/header/header";
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -18,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={cn("", plus.className)}>{children}</body>
+      <body className={cn("", plus.className)}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

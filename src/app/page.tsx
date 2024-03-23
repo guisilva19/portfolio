@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <main></main>
+      <main className="w-screen h-screen bg-primary-black"></main>
     </>
   );
 }
