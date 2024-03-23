@@ -23,10 +23,10 @@ export default function DropdownMobile() {
           <DropdownItem href="#about" key="about" className="text-white">
             Sobre
           </DropdownItem>
-          <DropdownItem href="" key="services" className="text-white">
+          <DropdownItem href="#portfolio" key="services" className="text-white">
             Portfolio
           </DropdownItem>
-          <DropdownItem href="" key="portifolio" className="text-white">
+          <DropdownItem href="#contato" key="portifolio" className="text-white">
             Contato
           </DropdownItem>
         </DropdownMenu>

@@ -1,0 +1,22 @@
+.hvr-center {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.hvr-center:before {
+  content: "";
+  position: absolute;
+  left: 51%;
+  right: 51%;
+  background: linear-gradient(to right, #B16CEA, #FF5E69, #FF8A56, #FFA84B);
+  border-radius: 4px;
+  height: 4px;
+  transition: left 0.3s ease-out, right 0.3s ease-out;
+  bottom: 0;
+}
+
+.hvr-center:hover:before {
+  left: 0;
+  right: 0;
+}

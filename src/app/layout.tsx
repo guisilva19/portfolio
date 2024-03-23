@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={cn("", plus.className)}>
+      <body className={plus.className}>
         <Header />
         {children}
       </body>

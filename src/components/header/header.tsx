@@ -1,9 +1,26 @@
 "use client";
+
 import { Avatar, Button } from "@nextui-org/react";
-import DropdownMobile from "../dropdown/dropdown";
-import Link from "next/link";
 import { itemsListNav } from "@/data/itemsListNav";
 import { ItemNav } from "@/interfaces";
+
+import DropdownMobile from "../dropdown/dropdown";
+import Link from "next/link";
+
+import "./style.css";
+
+const ItemNav = ({ path, name }: ItemNav) => {
+  return (
+    <li className="h-16 w-20 hvr-center">
+      <Link
+        href={path}
+        className="text-white flex h-full w-full justify-center items-center"
+      >
+        {name}
+      </Link>
+    </li>
+  );
+};
 
 export default function Header() {
   return (
@@ -23,13 +40,13 @@ export default function Header() {
           <nav className="flex lg:hidden">
             <DropdownMobile />
           </nav>
-          <nav className="hidden lg:flex w-7/12 justify-between">
-            <ul className="flex">
+          <nav className="hidden lg:flex w-8/12 justify-between">
+            <ul className="flex gap-2">
               {itemsListNav.map((item: ItemNav, index: number) => (
                 <ItemNav name={item.name} path={item.path} key={index} />
               ))}
             </ul>
-            <Button className="" variant="faded">
+            <Button className="my-auto" variant="faded">
               CV
             </Button>
           </nav>
@@ -38,15 +55,3 @@ export default function Header() {
     </>
   );
 }
-
-const ItemNav = ({ path, name }: ItemNav) => {
-  return (
-    <>
-      <li>
-        <Link href={path} className="text-white">
-          {name}
-        </Link>
-      </li>
-    </>
-  );
-};
