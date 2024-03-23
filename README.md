@@ -1,7 +1,13 @@
 # Portfólio Multifuncional de Guilherme Silva Fernandes
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://i.ibb.co/zP1TLYN/gui.png" width="200" alt="Nest Logo" /></a>
+  <a href="https://www.linkedin.com/in/guilhermesilvafernandes/" target="blank"><img src="https://i.ibb.co/zP1TLYN/gui.png" width="200" alt="Nest Logo" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/guilhermesilvafernandes/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://api.whatsapp.com/send?phone=77999577372" target="_blank"><img src="https://img.shields.io/badge/-WhatsApp-brightgreen?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://mail.google.com/mail/u/0/#drafts?compose=jrjtXDzSGlgttBWcSQFvwwHdpMScfkXsrLvnbccZcznWWsnRqCSjsLXHMXPSxcBgwXNMqVSL" target="_blank"><img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
 ## Descrição
