@@ -74,6 +74,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #161513;
 }
 
 body::-webkit-scrollbar {
