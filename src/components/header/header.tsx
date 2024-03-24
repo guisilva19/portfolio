@@ -2,14 +2,12 @@
 
 import { Avatar, Button } from "@nextui-org/react";
 import { itemsListNav } from "@/data/itemsListNav";
-import { ItemNav } from "@/interfaces";
-
 import DropdownMobile from "../dropdown/dropdown";
 import Link from "next/link";
 
 import "./style.css";
 
-const ItemNav = ({ path, name }: ItemNav) => {
+const ItemNav = ({ path, name }: { path: string; name: string }) => {
   return (
     <li className="h-16 w-20 hvr-center">
       <Link
@@ -42,7 +40,7 @@ export default function Header() {
           </nav>
           <nav className="hidden lg:flex w-8/12 justify-between">
             <ul className="flex gap-2">
-              {itemsListNav.map((item: ItemNav, index: number) => (
+              {itemsListNav.map((item, index: number) => (
                 <ItemNav name={item.name} path={item.path} key={index} />
               ))}
             </ul>
