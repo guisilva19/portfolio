@@ -1,7 +1,6 @@
 "use client";
-import Image from "next/image";
 import styles from "./style.module.css";
-import starIcon from "@/assets/star.png";
+import { CodeXml } from "lucide-react";
 
 export default function SliderAnimation() {
   const texts = [
@@ -34,12 +33,11 @@ export default function SliderAnimation() {
                 >
                   {text}
                 </span>
-                <Image
-                  src={starIcon}
-                  alt="star"
-                  width={40}
+                <CodeXml
+                  width={50}
                   height={40}
-                  className="mx-8"
+                  stroke="#FF8A56"
+                  className="mx-5"
                 />
               </>
             ))}
@@ -53,12 +51,11 @@ export default function SliderAnimation() {
                 >
                   {text}
                 </span>
-                <Image
-                  src={starIcon}
-                  alt="star"
-                  width={40}
+                <CodeXml
+                  width={50}
                   height={40}
-                  className="mx-8"
+                  stroke="#FF8A56"
+                  className="mx-5"
                 />
               </>
             ))}
@@ -79,12 +76,11 @@ export default function SliderAnimation() {
                 >
                   {text}
                 </span>
-                <Image
-                  src={starIcon}
-                  alt="star"
-                  width={40}
+                <CodeXml
+                  width={50}
                   height={40}
-                  className="mx-8"
+                  stroke="#FF8A56"
+                  className="mx-5"
                 />
               </>
             ))}
@@ -98,12 +94,11 @@ export default function SliderAnimation() {
                 >
                   {text}
                 </span>
-                <Image
-                  src={starIcon}
-                  alt="star"
-                  width={40}
+                <CodeXml
+                  width={50}
                   height={40}
-                  className="mx-8"
+                  stroke="#FF8A56"
+                  className="mx-5"
                 />
               </>
             ))}
