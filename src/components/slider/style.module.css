@@ -2,7 +2,6 @@
   overflow: hidden;
   white-space: nowrap;
   position: absolute;
-  left: -5px;
 }
 
 .text div {
@@ -40,7 +39,6 @@
   overflow: hidden;
   white-space: nowrap;
   position: absolute;
-  left: -5px;
 }
 
 .textTwo div {
