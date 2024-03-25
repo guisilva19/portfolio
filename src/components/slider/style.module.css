@@ -2,7 +2,7 @@
   overflow: hidden;
   white-space: nowrap;
   position: absolute;
-  transform: rotate(3.5deg);
+  left: -5px;
 }
 
 .text div {
@@ -40,7 +40,7 @@
   overflow: hidden;
   white-space: nowrap;
   position: absolute;
-  transform: rotate(-3.5deg);
+  left: -5px;
 }
 
 .textTwo div {
