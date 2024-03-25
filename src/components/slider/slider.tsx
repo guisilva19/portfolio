@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./style.module.css";
-import starIcon from "@/assets/star.svg";
+import starIcon from "@/assets/star.png";
 
 export default function SliderAnimation() {
   const texts = [
@@ -25,7 +25,7 @@ export default function SliderAnimation() {
         className={`${styles.textContainer} h-16 w-[105vw] flex items-center bg-white rotate-6 md:rotate-3`}
       >
         <div className={`${styles.text} text-3xl`}>
-          <div className="inline-flex">
+          <div className="flex items-center">
             {texts.map((text, index) => (
               <>
                 <span
@@ -44,7 +44,7 @@ export default function SliderAnimation() {
               </>
             ))}
           </div>
-          <div className="inline-flex">
+          <div className="flex items-center">
             {texts.map((text, index) => (
               <>
                 <span
@@ -70,7 +70,7 @@ export default function SliderAnimation() {
         className={`${styles.textContainerTwo} h-16 w-[105vw] flex items-center bg-white -rotate-6 md:-rotate-3`}
       >
         <div className={`${styles.textTwo} text-3xl`}>
-          <div className="inline-flex">
+          <div className="flex items-center">
             {texts.map((text, index) => (
               <>
                 <span
@@ -89,7 +89,7 @@ export default function SliderAnimation() {
               </>
             ))}
           </div>
-          <div className="inline-flex">
+          <div className="flex items-center">
             {texts.map((text, index) => (
               <>
                 <span
