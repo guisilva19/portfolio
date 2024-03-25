@@ -23,7 +23,7 @@ const ItemNav = ({ path, name }: { path: string; name: string }) => {
 export default function Header() {
   return (
     <>
-      <header className="w-screen h-16 bg-primary-black border-b border-white/20 ">
+      <header className="w-screen h-16 bg-primary-black border-b border-white/20 z-20">
         <div className="w-full h-full flex items-center justify-between px-5 md:px-10 xl:px-16 2xl:px-0 2xl:w-[1280px] mx-auto">
           <div className="flex gap-3 items-center">
             <Avatar

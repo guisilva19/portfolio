@@ -21,7 +21,7 @@ export default function SliderAnimation() {
   return (
     <>
       <div
-        className={`${styles.textContainer} h-16 w-screen flex items-center bg-white rotate-6 md:rotate-3`}
+        className={`${styles.textContainer} h-16 w-screen flex items-center bg-white rotate-6 md:rotate-3 z-50`}
       >
         <div className={`${styles.text} text-3xl`}>
           <div className="flex items-center">
@@ -64,7 +64,7 @@ export default function SliderAnimation() {
       </div>
 
       <div
-        className={`${styles.textContainerTwo} h-16 w-screen flex items-center bg-white -rotate-6 md:-rotate-3`}
+        className={`${styles.textContainerTwo} h-16 w-screen flex items-center bg-white -rotate-6 md:-rotate-3 z-50`}
       >
         <div className={`${styles.textTwo} text-3xl`}>
           <div className="flex items-center">
