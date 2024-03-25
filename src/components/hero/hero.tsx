@@ -31,7 +31,7 @@ export default function Hero() {
                 <FaTelegramPlane />
               </button>
               <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg">
-                <button className="items-center m-[2px] h-[98%] px-10 flex gap-3 bg-primary-black rounded-lg ">
+                <button className="items-center m-[1px] h-[98%] px-10 flex gap-1 bg-primary-black rounded-lg ">
                   Ver CV
                   <HiDocumentText />
                 </button>
