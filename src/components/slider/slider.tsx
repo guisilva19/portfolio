@@ -29,7 +29,7 @@ export default function SliderAnimation() {
               <>
                 <span
                   key={index}
-                  className="text-3xl h-40 flex items-center font-black"
+                  className="text-3xl h-40 flex items-center font-black text-black"
                 >
                   {text}
                 </span>
@@ -47,7 +47,7 @@ export default function SliderAnimation() {
               <>
                 <span
                   key={index}
-                  className="text-3xl h-40 flex items-center font-black"
+                  className="text-3xl h-40 flex items-center font-black text-black"
                 >
                   {text}
                 </span>
@@ -72,7 +72,7 @@ export default function SliderAnimation() {
               <>
                 <span
                   key={index}
-                  className="text-3xl h-40 flex items-center font-black"
+                  className="text-3xl h-40 flex items-center font-black text-black"
                 >
                   {text}
                 </span>
@@ -90,7 +90,7 @@ export default function SliderAnimation() {
               <>
                 <span
                   key={index}
-                  className="text-3xl h-40 flex items-center font-black"
+                  className="text-3xl h-40 flex items-center font-black text-black"
                 >
                   {text}
                 </span>
