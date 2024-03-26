@@ -2,13 +2,15 @@ import SliderAnimation from "../slider/slider";
 import MySplineComponent from "../spline/spline";
 import { FaTelegramPlane } from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi2";
+import { Github, Linkedin, Instagram } from "lucide-react";
 import "./style.css";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <>
-      <section className="w-full flex items-center justify-between">
-        <div className="w-full flex flex-col items-center py-14">
+      <section className="w-full flex items-center justify-between xl:justify-center">
+        <div className="w-full flex flex-col items-center py-14 mx-auto xl:w-4/12 xl:items-start xl:mx-0">
           <h1 className="text-[55px] font-semibold">Olá!👋🏻</h1>
           <h1 className="text-[55px] font-bold">
             Sou{" "}
@@ -16,30 +18,48 @@ export default function Hero() {
               Gui Silva
             </strong>
           </h1>
-          <div className="flex flex-col gap-5 items-center">
-            <span className="flex gap-3 w-full mx-auto items-center justify-center text-lg">
+          <div className="flex flex-col gap-5 items-center xl:items-start">
+            <span className="flex gap-3 w-full mx-auto items-center justify-center text-lg xl:justify-start">
               <div className="h-1 w-3/12 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow" />
               Desenvolvedor Full Stack
             </span>
-            <span className="w-[85%] text-center">
+            <span className="w-[85%] text-center xl:text-start xl:w-[430px]">
               Apaixonado por criar soluções inovadoras que impulsionam
               experiências digitais excepcionais. Conheça meu portfólio agora!
             </span>
-            <div className="flex justify-between w-[85%]">
+            <div className="flex justify-center gap-1 w-[85%] min-[425px]:gap-5 xl:justify-start">
               <button className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg">
                 Contrate-me
                 <FaTelegramPlane />
               </button>
               <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg">
-                <button className="items-center m-[1px] h-[98%] px-10 flex gap-1 bg-primary-black rounded-lg ">
+                <button className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
                   Ver CV
                   <HiDocumentText />
                 </button>
               </div>
             </div>
+            <div className="flex flex-col items-center gap-5 w-10/12 md:w-full xl:items-start">
+              <span className="">Siga-me:</span>
+              <div className="flex gap-5">
+                <ButtonRedirect path={process.env.NEXT_PUBLIC_GITHUB as string}>
+                  <Github className="icon" />
+                </ButtonRedirect>
+                <ButtonRedirect
+                  path={process.env.NEXT_PUBLIC_LINKEDIN as string}
+                >
+                  <Linkedin className="icon" />
+                </ButtonRedirect>
+                <ButtonRedirect
+                  path={process.env.NEXT_PUBLIC_INSTAGRAM as string}
+                >
+                  <Instagram className="icon" />
+                </ButtonRedirect>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="hidden w-6/12 h-full bg-blue-600">
+        <div className="hidden xl:flex w-[640px] h-[600px]">
           <MySplineComponent />
         </div>
       </section>
@@ -49,3 +69,25 @@ export default function Hero() {
     </>
   );
 }
+
+const ButtonRedirect = ({
+  children,
+  path,
+}: {
+  children: any;
+  path: string;
+}) => {
+  return (
+    <>
+      <button className="w-14 h-14 bg-gradient-to-br from-primary-pink via-primary-orange to-primary-yellow rounded-full  flex justify-center items-center group hover:hover-button">
+        <Link
+          href={path}
+          target="_blank"
+          className="w-[52px] h-[52px] bg-primary-black rounded-full flex justify-center items-center"
+        >
+          {children}
+        </Link>
+      </button>
+    </>
+  );
+};

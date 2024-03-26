@@ -72,6 +72,13 @@
   }
 }
 
+@layer utilities {
+  .hover-button:hover .icon {
+    transform: scale(1.20);
+    transition: transform 0.3s ease;
+  }
+}
+
 body {
   overflow-x: hidden !important;
   background-color: #161513;
