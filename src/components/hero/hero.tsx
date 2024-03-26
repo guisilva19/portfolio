@@ -1,15 +1,17 @@
-import SliderAnimation from "../slider/slider";
-import MySplineComponent from "../spline/spline";
 import { FaTelegramPlane } from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi2";
 import { Github, Linkedin, Instagram } from "lucide-react";
-import "./style.css";
+import SliderAnimation from "../slider/slider";
+import MySplineComponent from "../spline/spline";
 import Link from "next/link";
+import Image from "next/image";
+import bgLines from "@/assets/lines.svg";
+import "./style.css";
 
 export default function Hero() {
   return (
     <>
-      <section className="w-full flex items-center justify-between xl:justify-center">
+      <section className="w-full flex items-center justify-between xl:justify-center z-50">
         <div className="w-full flex flex-col items-center py-14 mx-auto xl:w-4/12 xl:items-start xl:mx-0">
           <h1 className="text-[55px] font-semibold">Olá!👋🏻</h1>
           <h1 className="text-[55px] font-bold">
@@ -63,7 +65,7 @@ export default function Hero() {
           <MySplineComponent />
         </div>
       </section>
-      <div className="position-relative mt-10">
+      <div className="position-relative">
         <SliderAnimation />
       </div>
     </>
