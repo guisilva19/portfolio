@@ -13,16 +13,16 @@ export default function Hero() {
     <>
       <section className="w-full flex items-center justify-between xl:justify-center z-50">
         <div className="w-full flex flex-col items-center py-14 mx-auto xl:w-4/12 xl:items-start xl:mx-0">
-          <h1 className="text-[55px] font-semibold">Olá!👋🏻</h1>
-          <h1 className="text-[55px] font-bold">
+          <h1 className="text-[55px] lg:text-6xl font-bold lg:font-black lg:py-2">Olá!👋🏻</h1>
+          <h1 className="text-[55px] lg:text-6xl font-bold lg:font-black">
             Sou{" "}
             <strong className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow text-transparent bg-clip-text">
               Gui Silva
             </strong>
           </h1>
           <div className="flex flex-col gap-5 items-center xl:items-start">
-            <span className="flex gap-3 w-full mx-auto items-center justify-center text-lg xl:justify-start">
-              <div className="h-1 w-3/12 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow" />
+            <span className="flex gap-3 w-full mx-auto items-center justify-center text-lg xl:justify-start mt-1">
+              <div className="h-1 w-3/12 xl:w-4/12 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow" />
               Desenvolvedor Full Stack
             </span>
             <span className="w-[85%] text-center xl:text-start xl:w-[430px]">
@@ -30,11 +30,11 @@ export default function Hero() {
               experiências digitais excepcionais. Conheça meu portfólio agora!
             </span>
             <div className="flex justify-center gap-1 w-[85%] min-[425px]:gap-5 xl:justify-start">
-              <button className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg">
+              <button className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
                 Contrate-me
                 <FaTelegramPlane />
               </button>
-              <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg">
+              <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
                 <button className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
                   Ver CV
                   <HiDocumentText />

@@ -7,7 +7,7 @@ import "./globals.css";
 const plus = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dev Gui Silva",
+  title: "Gui Silva",
   description:
     "O projeto 'Portfólio Multifuncional de Guilherme Silva Fernandes' é uma plataforma digital personalizada desenvolvida para destacar os talentos, habilidades e conquistas de Guilherme de uma forma única e impactante. Este portfólio é projetado para oferecer uma visão abrangente do seu trabalho e personalidade, demonstrando sua expertise e criatividade de maneira cativante.",
 };

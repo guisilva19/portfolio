@@ -77,11 +77,16 @@
     transform: scale(1.2);
     transition: transform 0.3s ease;
   }
+
+  .button-hide-me:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
 }
 
 body {
   overflow-x: hidden !important;
-  background-color: #161513;
+  background-color: #161513 !important;
   color: white;
 }
 

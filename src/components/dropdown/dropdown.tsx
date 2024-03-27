@@ -4,6 +4,7 @@ import {
   DropdownMenu,
   DropdownTrigger,
   DropdownItem,
+  Button,
 } from "@nextui-org/react";
 
 export default function DropdownMobile() {
@@ -14,7 +15,9 @@ export default function DropdownMobile() {
         className="bg-gradient-to-br from-primary-orange to-primary-pink"
       >
         <DropdownTrigger>
-          <AlignCenter color="#ffff" width={40} height={40} />
+          <Button className="" variant="light">
+            <AlignCenter color="#ffff" width={50} height={50} />
+          </Button>
         </DropdownTrigger>
         <DropdownMenu variant="faded" aria-label="Static Actions">
           <DropdownItem href="#home" key="home" className="text-white">

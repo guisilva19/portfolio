@@ -44,9 +44,11 @@ export default function Header() {
                 <ItemNav name={item.name} path={item.path} key={index} />
               ))}
             </ul>
-            <Button className="my-auto" variant="faded">
-              Fale comigo
-            </Button>
+            <Link href={process.env.NEXT_PUBLIC_WHATSAPP as string} className="h-max my-auto">
+              <Button className="my-auto" variant="faded">
+                Fale comigo
+              </Button>
+            </Link>
           </nav>
         </div>
       </header>
