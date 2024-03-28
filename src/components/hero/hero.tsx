@@ -4,8 +4,6 @@ import { Github, Linkedin, Instagram } from "lucide-react";
 import SliderAnimation from "../slider/slider";
 import MySplineComponent from "../spline/spline";
 import Link from "next/link";
-import Image from "next/image";
-import bgLines from "@/assets/lines.svg";
 import "./style.css";
 
 export default function Hero() {

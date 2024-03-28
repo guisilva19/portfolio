@@ -20,14 +20,14 @@ export default function DropdownMobile() {
           </Button>
         </DropdownTrigger>
         <DropdownMenu variant="faded" aria-label="Static Actions">
-          <DropdownItem href="#home" key="home" className="text-white">
+          <DropdownItem href="/" key="home" className="text-white">
             Home
           </DropdownItem>
           <DropdownItem href="#about" key="about" className="text-white">
             Sobre
           </DropdownItem>
-          <DropdownItem href="#portfolio" key="services" className="text-white">
-            Portfolio
+          <DropdownItem href="/portfolio" key="services" className="text-white">
+            Portfólio
           </DropdownItem>
           <DropdownItem href="#contato" key="portifolio" className="text-white">
             Contato

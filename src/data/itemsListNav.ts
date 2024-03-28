@@ -1,15 +1,15 @@
 export const itemsListNav = [
   {
     name: "Home",
-    path: "#",
+    path: "/",
   },
   {
     name: "Sobre",
     path: "#sobre",
   },
   {
-    name: "Portfolio",
-    path: "#portfolio",
+    name: "Portfólio",
+    path: "/portfolio",
   },
   {
     name: "Contato",
