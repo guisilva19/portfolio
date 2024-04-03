@@ -1,7 +1,6 @@
 import Header from "@/components/header/header";
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import { cn } from "@/lib/utils";
 import "./globals.css";
 
 const plus = Plus_Jakarta_Sans({ subsets: ["latin"] });

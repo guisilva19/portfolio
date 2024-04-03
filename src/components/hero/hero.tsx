@@ -33,10 +33,10 @@ export default function Hero() {
                 <FaTelegramPlane />
               </button>
               <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
-                <button className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
+                <Link href="/portfolio" className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
                   Ver CV
                   <HiDocumentText />
-                </button>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col items-center gap-5 w-10/12 md:w-full xl:items-start">
