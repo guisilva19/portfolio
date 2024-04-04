@@ -29,7 +29,7 @@ export default function Form() {
           Preencha com nome, email, telefone e deixe sua mensagem!
         </span>
       </div>
-      <form className="w-10/12 mx-auto flex flex-col gap-1 items-center min-[425px]:w-[350px]">
+      <form className="w-10/12 mx-auto flex flex-col gap-2 items-center min-[425px]:w-[350px]">
         <fieldset className="w-full">
           <Input
             isClearable
