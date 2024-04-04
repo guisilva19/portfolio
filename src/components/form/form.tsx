@@ -22,14 +22,14 @@ export default function Form() {
   return (
     <>
       <div className="w-full flex flex-col items-center justify-center gap-2">
-        <h1 className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow bg-clip-text text-transparent font-black text-3xl md:text-5xl lg:text-6xl">
+        <h1 className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow bg-clip-text text-transparent font-black text-4xl md:text-5xl lg:text-6xl">
           Entre em contato
         </h1>
-        <span className="text-xs w-7/12 mx-auto text-center">
+        <span className="text-sm w-8/12 mx-auto text-center">
           Preencha com nome, email, telefone e deixe sua mensagem!
         </span>
       </div>
-      <form className="w-8/12 mx-auto flex flex-col gap-4 items-center min-[425px]:w-[285px]">
+      <form className="w-10/12 mx-auto flex flex-col gap-1 items-center min-[425px]:w-[350px]">
         <fieldset className="w-full">
           <Input
             isClearable
@@ -82,17 +82,17 @@ export default function Form() {
             onBlur={() => setCorMessage("#FFFFFF")}
           />
         </fieldset>
-        <Button className="font-semibold text-white bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow mt-5">
+        <Button className="font-semibold text-white bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow mt-5 px-10">
           Enviar
         </Button>
       </form>
       <div className="w-full flex justify-center">
         <span className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow bg-clip-text text-transparent font-black text-xl">
-          Ou
+          OU
         </span>
       </div>
       <div className="flex flex-col mx-auto justify-center gap-5 w-10/12 pb-10">
-        <span className="text-center">
+        <span className="text-center text-sm">
           Entre em contato através das redes sociais
         </span>
         <div className="flex justify-center gap-5">
