@@ -21,15 +21,15 @@ export default function Form() {
 
   return (
     <>
-      <div className="w-full flex flex-col items-center justify-center gap-2">
+      <div className="w-full flex flex-col items-center justify-center gap-2 md:gap-4">
         <h1 className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow bg-clip-text text-transparent font-black text-4xl md:text-5xl lg:text-6xl">
           Entre em contato
         </h1>
-        <span className="text-sm w-8/12 mx-auto text-center">
+        <span className="text-sm w-8/12 md:text-base md:w-[350px] mx-auto text-center">
           Preencha com nome, email, telefone e deixe sua mensagem!
         </span>
       </div>
-      <form className="w-10/12 mx-auto flex flex-col gap-2 items-center min-[425px]:w-[350px]">
+      <form className="w-10/12 mx-auto flex flex-col gap-2 sm:gap-4 items-center min-[425px]:w-[350px] md:w-[450px] lg:w-[500px]">
         <fieldset className="w-full">
           <Input
             isClearable
@@ -92,7 +92,7 @@ export default function Form() {
         </span>
       </div>
       <div className="flex flex-col mx-auto justify-center gap-5 w-10/12 pb-10">
-        <span className="text-center text-sm">
+        <span className="text-center text-sm md:text-base">
           Entre em contato através das redes sociais
         </span>
         <div className="flex justify-center gap-5">
