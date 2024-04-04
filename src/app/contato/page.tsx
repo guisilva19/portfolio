@@ -8,7 +8,6 @@ export default function Contato() {
       <NextUIProvider>
         <main className="w-screen h-full flex flex-col py-10 md:py-20 gap-5">
           <Form />
-          
         </main>
       </NextUIProvider>
     </>
