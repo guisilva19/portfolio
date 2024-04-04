@@ -22,12 +22,11 @@ const config = {
     extend: {
       colors: {
         "primary-black": "#161513",
-        "warning": "#FF8A56",
+        warning: "#FF5E69",
         "primary-orange": "#FF8A56",
         "primary-pink": "#FF5E69",
         "primary-purple": "#B16CEA",
         "primary-yellow": "#FFA84B",
-   
       },
     },
   },

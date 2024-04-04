@@ -70,7 +70,7 @@ export default function Hero() {
   );
 }
 
-const ButtonRedirect = ({
+export const ButtonRedirect = ({
   children,
   path,
 }: {
