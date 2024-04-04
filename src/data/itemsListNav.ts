@@ -13,6 +13,6 @@ export const itemsListNav = [
   },
   {
     name: "Contato",
-    path: "#contato",
+    path: "/contato",
   },
 ];

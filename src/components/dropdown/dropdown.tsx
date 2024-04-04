@@ -29,7 +29,7 @@ export default function DropdownMobile() {
           <DropdownItem href="/portfolio" key="services" className="text-white">
             Portfólio
           </DropdownItem>
-          <DropdownItem href="#contato" key="portifolio" className="text-white">
+          <DropdownItem href="/contato" key="portifolio" className="text-white">
             Contato
           </DropdownItem>
         </DropdownMenu>

@@ -28,13 +28,6 @@ export default function Carrousel() {
           slidesPerView={"auto"}
           spaceBetween={-10}
           loop={true}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            // slideShadows: true,
-          }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           modules={[Autoplay, Pagination, EffectCoverflow]}
           className="mySwiper"
@@ -98,7 +91,7 @@ export default function Carrousel() {
           centeredSlides={true}
           slidesPerView={"auto"}
           loop={true}
-          autoplay={{ delay: 3000}}
+          autoplay={{ delay: 3000 }}
           modules={[Autoplay, Pagination, EffectCoverflow]}
           spaceBetween={50}
           className="mySwiper"
