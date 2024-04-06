@@ -1,4 +1,5 @@
 import Carrousel from "@/components/carrousel/carrousel";
+import Skills from "@/components/skills/skills";
 
 export default function Portfolio() {
   return (
@@ -11,6 +12,9 @@ export default function Portfolio() {
         </div>
         <div className="w-full h-full pb-20 ">
           <Carrousel />
+        </div>
+        <div>
+          <Skills />
         </div>
       </main>
     </>

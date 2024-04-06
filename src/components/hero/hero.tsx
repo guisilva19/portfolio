@@ -28,10 +28,10 @@ export default function Hero() {
               experiências digitais excepcionais. Conheça meu portfólio agora!
             </span>
             <div className="flex justify-center gap-1 w-[85%] min-[425px]:gap-5 xl:justify-start">
-              <button className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
+              <Link href="/contato" className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
                 Contrate-me
                 <FaTelegramPlane />
-              </button>
+              </Link>
               <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
                 <Link href="/portfolio" className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
                   Ver CV

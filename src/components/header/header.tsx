@@ -45,7 +45,7 @@ export default function Header() {
               ))}
             </ul>
             <Link href={process.env.NEXT_PUBLIC_WHATSAPP as string} className="h-max my-auto">
-              <Button className="my-auto" variant="faded">
+              <Button className="my-auto bg-white font-semibold text-black" variant="faded">
                 Fale comigo
               </Button>
             </Link>
