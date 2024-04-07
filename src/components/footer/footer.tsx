@@ -26,10 +26,10 @@ export default function Footer() {
         </div>
         <section className="pt-5 w-full xl:w-[1280px]">
           <div className="flex flex-col gap-3">
-            <Link href="/">Home</Link>
-            <Link href="/portfólio">Portfólio</Link>
-            <Link href="/contato">Contato</Link>
-            <Link href="/sobre">Sobre</Link>
+            <Link href="/" className="text-white/60" >Home</Link>
+            <Link href="/portfólio" className="text-white/60" >Portfólio</Link>
+            <Link href="/contato" className="text-white/60" >Contato</Link>
+            <Link href="/sobre" className="text-white/60" >Sobre</Link>
           </div>
           <div></div>
         </section>
