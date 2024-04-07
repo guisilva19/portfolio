@@ -122,6 +122,14 @@
     transform: scale(1.05);
     transition: 300ms;
   }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .relative {
+    position: relative;
+  }
 }
 
 body {
