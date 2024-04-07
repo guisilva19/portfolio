@@ -11,16 +11,16 @@ export default function Footer() {
       </div>
       <main className="w-screen h-full flex flex-col justify-center items-center px-10 pt-5 gap-10 relative ">
         <div className="absolute top-0 items-center flex justify-end px-10 xl:px-0 gap-3 w-full xl:w-[1280px]">
-          <Link href={process.env.NEXT_PUBLIC_WHATSAPP as string}>
+          <Link target="_blank" href={process.env.NEXT_PUBLIC_WHATSAPP as string}>
             <SiWhatsapp size={20} />
           </Link>
-          <Link href={process.env.NEXT_PUBLIC_GITHUB as string}>
+          <Link target="_blank" href={process.env.NEXT_PUBLIC_GITHUB as string}>
             <Github />
           </Link>
-          <Link href={process.env.NEXT_PUBLIC_LINKEDIN as string}>
+          <Link target="_blank" href={process.env.NEXT_PUBLIC_LINKEDIN as string}>
             <Linkedin />
           </Link>
-          <Link href={process.env.NEXT_PUBLIC_INSTAGRAM as string}>
+          <Link target="_blank" href={process.env.NEXT_PUBLIC_INSTAGRAM as string}>
             <Instagram />
           </Link>
         </div>
