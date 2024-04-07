@@ -26,7 +26,7 @@ Este projeto consiste em um portfólio digital personalizado desenvolvido para d
 
 ## Autor
 
-- Guilherme Silva Fernandes - [GitHub](https://github.com/seu-username) | [LinkedIn](https://www.linkedin.com/in/seu-perfil-linkedin/)
+- Guilherme Silva Fernandes - [Site](https://guisilva.com.br) | [GitHub](https://github.com/seu-username) | [LinkedIn](https://www.linkedin.com/in/seu-perfil-linkedin/)
 
 ## Licença
 
