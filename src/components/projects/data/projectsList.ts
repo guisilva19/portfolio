@@ -1,6 +1,6 @@
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa6";
-import { SiStyledcomponents, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiStyledcomponents, SiNextdotjs, SiTailwindcss, SiNextui } from "react-icons/si";
 import { RiOpenaiFill } from "react-icons/ri";
 
 export interface IProject {
@@ -33,6 +33,6 @@ export const projectsList: IProject[] = [
       "Quick Loan é uma iniciativa inovadora voltada para a criação de uma plataforma de empréstimo rápido, com foco na agilidade, transparência e facilidade de acesso aos serviços financeiros.",
     link_github: "https://github.com/guisilva19/quick-loan",
     is_finish: false,
-    libs: [FaReact, BiLogoTypescript, SiStyledcomponents],
+    libs: [SiNextdotjs, BiLogoTypescript, SiTailwindcss, SiNextui],
   },
 ];
