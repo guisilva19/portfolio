@@ -22,7 +22,7 @@ export const projectsList: IProject[] = [
     description:
       "Este chatbot utiliza tecnologias avançadas para oferecer uma experiência de conversação inteligente e natural. Através da integração com a API da OpenAI, garantindo interações mais humanizadas e relevantes. Além disso, nossa integração com a Vercel SDK AI nos permite enriquecer ainda mais a interação com funcionalidades específicas, tornando nosso chatbot mais inteligente e capaz de compreender melhor as necessidades dos usuários.",
     link_github: "https://github.com/guisilva19/chatbot",
-    is_finish: false,
+    is_finish: true,
     libs: [SiNextdotjs, BiLogoTypescript, RiOpenaiFill, SiTailwindcss],
   },
   {
