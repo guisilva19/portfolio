@@ -18,9 +18,9 @@ export const projectsList: IProject[] = [
   {
     title: "Chatbot",
     date: "08 de Abril de 2024",
-    image: "https://i.ibb.co/3dCCG3N/image.png",
+    image: "https://i.ibb.co/rxgWtTQ/chatbot.png",
     description:
-      "Este chatbot utiliza tecnologias avançadas para oferecer uma experiência de conversação inteligente e natural. Através da integração com a API da OpenAI, garantindo interações mais humanizadas e relevantes. Além disso, nossa integração com a Vercel SDK AI nos permite enriquecer ainda mais a interação com funcionalidades específicas, tornando nosso chatbot mais inteligente e capaz de compreender melhor as necessidades dos usuários.",
+      "Este chatbot utiliza tecnologias avançadas da API da OpenAI e da Vercel SDK AI para oferecer interações mais humanizadas e relevantes, garantindo uma experiência de conversação inteligente e natural.",
     link_github: "https://github.com/guisilva19/chatbot",
     is_finish: true,
     libs: [SiNextdotjs, BiLogoTypescript, RiOpenaiFill, SiTailwindcss],

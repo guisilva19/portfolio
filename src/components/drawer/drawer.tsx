@@ -44,7 +44,7 @@ export default function Drawer({
               <DrawerDescription className="text-center w-72 md:text-start md:text-[15px] lg:text-lg ">
                 {project.description}
               </DrawerDescription>
-              <p>{project.date}</p>
+              <p className="mx-auto mt-3 md:mx-0">{project.date}</p>
             </span>
           </div>
           <DrawerFooter className="flex-row justify-center mt-4">
