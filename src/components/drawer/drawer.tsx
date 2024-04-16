@@ -50,6 +50,7 @@ export default function Drawer({
           <DrawerFooter className="flex-row justify-center mt-4">
             {project.link_site !== undefined && (
               <Link
+                target="_blank"
                 href={project.link_site}
                 className="flex justify-center items-center text-center text-sm md:text-base bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow px-5 py-3 rounded-lg hover:scale-105 transition-[400ms] font-semibold"
               >
@@ -57,6 +58,7 @@ export default function Drawer({
               </Link>
             )}
             <Link
+              target="_blank"
               href={project.link_github}
               className="flex justify-center items-center text-center text-sm md:text-base bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow px-5 py-3 rounded-lg hover:scale-105 transition-[400ms] font-semibold"
             >
