@@ -57,13 +57,15 @@ export default function Drawer({
                 Acessar projeto
               </Link>
             )}
-            <Link
-              target="_blank"
-              href={project.link_github}
-              className="flex justify-center items-center text-center text-sm md:text-base bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow px-5 py-3 rounded-lg hover:scale-105 transition-[400ms] font-semibold"
-            >
-              Acessar repositório
-            </Link>
+            {project.link_github !== undefined && (
+              <Link
+                target="_blank"
+                href={project?.link_github}
+                className="flex justify-center items-center text-center text-sm md:text-base bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow px-5 py-3 rounded-lg hover:scale-105 transition-[400ms] font-semibold"
+              >
+                Acessar repositório
+              </Link>
+            )}
           </DrawerFooter>
         </DrawerContent>
       </DrawerMain>
