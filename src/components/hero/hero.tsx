@@ -11,7 +11,9 @@ export default function Hero() {
     <>
       <section className="w-full flex items-center justify-between xl:justify-center z-50">
         <div className="w-full flex flex-col items-center py-14 mx-auto xl:w-4/12 xl:items-start xl:mx-0">
-          <h1 className="text-[55px] lg:text-6xl font-bold lg:font-black lg:py-2">Olá!👋🏻</h1>
+          <h1 className="text-[55px] lg:text-6xl font-bold lg:font-black lg:py-2">
+            Olá!👋🏻
+          </h1>
           <h1 className="text-[55px] lg:text-6xl font-bold lg:font-black">
             Sou{" "}
             <strong className="bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow text-transparent bg-clip-text">
@@ -24,16 +26,25 @@ export default function Hero() {
               Desenvolvedor Full Stack
             </span>
             <span className="w-[85%] text-center xl:text-start xl:w-[430px]">
-              Apaixonado por criar soluções inovadoras que impulsionam
-              experiências digitais excepcionais. Conheça meu portfólio agora!
+              Desenvolvedor com sólida experiência em HTML, CSS, JavaScript e
+              TypeScript. Especializado na criação de interfaces atrativas
+              utilizando frameworks como Next.js, React.js, React Native, e
+              Tailwind. Proficiente no desenvolvimento de APIs com Node.js,
+              Nest.js, Express, além de familiaridade com bancos de dados SQL.
             </span>
             <div className="flex justify-center gap-1 w-[85%] min-[425px]:gap-5 xl:justify-start">
-              <Link href="/contato" className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
+              <Link
+                href="/contato"
+                className="flex items-center justify-center gap-3 px-4 h-14 bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me"
+              >
                 Contrate-me
                 <FaTelegramPlane />
               </Link>
               <div className="h-[56px] flex items-center justify-center bg-gradient-to-r from-primary-pink via-primary-orange to-primary-yellow rounded-lg button-hide-me">
-                <Link href="/portfolio" className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg ">
+                <Link
+                  href="/portfolio"
+                  className="items-center m-[1px] h-[54px] px-10 flex gap-1 bg-primary-black rounded-lg "
+                >
                   Ver CV
                   <HiDocumentText />
                 </Link>
